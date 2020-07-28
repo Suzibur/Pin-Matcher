@@ -34,7 +34,7 @@ function typePin(key) {
     }
 }
 
-// Function for match pin.
+// Function for  pin matching.
 function pinChecker() {
     let hitLeft = parseInt(getElement('hit-left').innerText);
     if (hitLeft > 0) {
